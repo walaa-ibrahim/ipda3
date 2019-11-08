@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap file css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!--google-font-->
+    <link href="https://fonts.googleapis.com/css?family=Cairo:400,600,700&display=swap" rel="stylesheet">
+    <!--main file css-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>بنك الدم</title>
+</head>
+<body>
+    <!--Loading Page-->
+    <div class="loading-page">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!--header section-->
+    <section class="header">
+        <!--top-bar-->
+        <div class="top-bar py-2">
+            <div class="container">
+                <!--row of top-bar-->
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <a href="index.html" class="ar px-1">عربى</a>
+                        <a href="" class="en px-1">EN</a>
+                    </div>
+                    <div>
+                        <ul class="list-unstyled">
+                            <li class="d-inline-block mx-2"><a class="facebook" href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="d-inline-block mx-2"><a class="insta" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li class="d-inline-block mx-2"><a class="twitter" href=""><i class="fab fa-twitter"></i></a></li>
+                            <li class="d-inline-block mx-2"><a class="whatsapp" href=""><i class="fab fa-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="connect">
+                        <a href="" class="vr-brd massg d-inline-block">name@name.com<i class="far fa-envelope px-2"></i></a>
+                        <a href="" class="d-inline-block phone">966506954964+<i class="fas fa-phone-alt px-2"></i></a>
+                    </div>
+                </div><!--End row-->
+            </div><!--End container-->
+        </div><!--End top-bar-->
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="imgs/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">الرئيسيه <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">عن بنك الدم</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">المقالات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">طلبات التبرع</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">من نحن</a>
+                        </li>
+                        <li class="nav-item cont">
+                            <a class="nav-link" href="#">اتصل بنا</a>
+                        </li>
+                        <li class="mr-auto py-md-2"><a class="signin" href="#">انشاء حساب جديد</a></li>
+                        <li class="pr-3"><a class="btn bg px-3" href="signup.html">دخول</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--End container-->
+        </nav>
+        <!--End Nav-->
+    </section><!--End Header-->
+    <div class="container">
+        <!--Breadcrumb-->
+        <nav class="my-5" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">الرئيسيه</a></li>
+                <li class="breadcrumb-item active" aria-current="page">طلبات التبرع</li>
+            </ol>
+        </nav>
+    </div>
+    <!--Donation-->
+    <section class="donation">
+        <h2 class="text-center"><span class="py-1">طلبات التبرع</span> </h2>
+        <hr />
+        <div class="donation-request py-5">
+            <div class="container">
+                <div class="selection w-75 d-flex mx-auto my-4">
+                    <select class="custom-select">
+                        <option selected>اختر فصيلة الدم</option>
+                        <option value="+AB">+AB</option>
+                        <option value="O-">O-</option>
+                        <option value="A+">A+</option>
+                        <option value="B+">B+</option>
+                    </select>
+                    <select class="custom-select mx-md-3 mx-sm-1">
+                        <option selected>اختر المدينة</option>
+                        <option value="القاهرة">القاهرة</option>
+                        <option value="الجيزة">الجيزة</option>
+                        <option value="القليوبيه">القليوبيه</option>
+                        <option value="سوهاج">سوهاج</option>
+                    </select>
+                    <div><i class="fas fa-search"></i></div>
+                </div>
+                <!--End selection-->
+                <div class="req-item my-3">
+                    <div class="row">
+                        <div class="col-md-9 col-sm-12 clearfix">
+                            <div class="blood-type m-1 float-right">
+                                <h3>+AB</h3>
+                            </div>
+                            <div class="pt-4 mx-3 float-right">
+                                <p>
+                                    اسم الحالة : محمد مجمود
+                                </p>
+                                <p>
+                                    مستشفى : القصر العينى
+                                </p>
+                                <p>
+                                    المدينة : المنصورة
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 text-center pt-md-5 mb-4">
+                            <button type="button" class="btn btn-light ml-4 px-5 py-3">التفاصيل</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="req-item my-3">
+                    <div class="row">
+                        <div class="col-md-9 col-sm-12 clearfix">
+                            <div class="blood-type m-1 float-right">
+                                <h3>+AB</h3>
+                            </div>
+                            <div class="pt-4 mx-3 float-right">
+                                <p>
+                                    اسم الحالة : محمد مجمود
+                                </p>
+                                <p>
+                                    مستشفى : القصر العينى
+                                </p>
+                                <p>
+                                    المدينة : المنصورة
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 text-center pt-md-5 mb-4">
+                            <button type="button" class="btn btn-light ml-4 px-5 py-3">التفاصيل</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="req-item my-3">
+                    <div class="row">
+                        <div class="col-md-9 col-sm-12 clearfix">
+                            <div class="blood-type m-1 float-right">
+                                <h3>+AB</h3>
+                            </div>
+                            <div class="pt-4 mx-3 float-right">
+                                <p>
+                                    اسم الحالة : محمد مجمود
+                                </p>
+                                <p>
+                                    مستشفى : القصر العينى
+                                </p>
+                                <p>
+                                    المدينة : المنصورة
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 text-center pt-md-5 mb-4">
+                            <button type="button" class="btn btn-light ml-4 px-5 py-3">التفاصيل</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="req-item my-3">
+                    <div class="row">
+                        <div class="col-md-9 col-sm-12 clearfix">
+                            <div class="blood-type m-1 float-right">
+                                <h3>+AB</h3>
+                            </div>
+                            <div class="pt-4 mx-3 float-right">
+                                <p>
+                                    اسم الحالة : محمد مجمود
+                                </p>
+                                <p>
+                                    مستشفى : القصر العينى
+                                </p>
+                                <p>
+                                    المدينة : المنصورة
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 pt-md-5 mb-4 text-center">
+                            <button type="button" class="btn btn-light ml-4 px-5 py-3">التفاصيل</button>
+                        </div>
+                    </div>
+                </div>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center my-3">
+                        <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!--End container-->
+        </div>
+        <!--End Donation-request-->
+    </section>
+    <!--End Donation-->
+    <!--Footer-->
+    <footer>
+        <div class="main-footer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="imgs/logo.png" alt="">
+                        <h5 class="my-3">بنك الدم</h5>
+                        <p class="pl-4"> هذا النص هو مثال لنص ممكن أن يستبدل فى نفس المساحه, لقد تم توليد
+                            هذا النص من مولد النص العرب حيث يمكنك ان تولد هذا النص أو
+                            العديد من النصوص الأخرى وإضافة الى زيادة عدد الحروف التى يولدها التطبيق يطلع على صورة حقيقة لتطبيق
+                            الموقع
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="px-md-5 mt-md-3">الرئيسية</h6>
+                        <ul class="list-unstyled">
+                            <li class="py-2"><a href="">عن بنك الدم</a></li>
+                            <li class="py-2"><a href="">المقالات</a></li>
+                            <li class="py-2"><a href="">عن التبرع</a></li>
+                            <li class="py-2"><a href="">من نحن</a></li>
+                            <li class="py-2"><a href="">اتصل بنا</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 available">
+                        <h6 class="mb-5 mt-md-3 px-md-5">متوفر على</h6>
+                        <div class="my-3"><img src="imgs/google1.png" alt=""></div>
+                        <div class="my-3"><img src="imgs/ios1.png" alt=""></div>
+                    </div>
+                </div>
+            </div><!--End container-->
+        </div><!--End main-footer-->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <ul class="list-unstyled pt-sm-3 py-md-3">
+                            <li class="d-inline-block mx-2"><a class="facebook" href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="d-inline-block mx-2"><a class="insta" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li class="d-inline-block mx-2"><a class="twitter" href=""><i class="fab fa-twitter"></i></a></li>
+                            <li class="d-inline-block mx-2"><a class="whatsapp" href=""><i class="fab fa-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-7">
+                        <p class="mx-5 py-md-3">جميع الحقوق محفوظه لـ <span>بنك الدم</span> 	&copy; 2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!--End Footer-->
+    <!--jquery/bootstrap/main file js-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
