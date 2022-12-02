@@ -3,6 +3,23 @@ $(window).ready(function(){
 	$('.loading-page').fadeOut(400);
 	$('body').css('overflow', 'auto')
 });
+//event when scroll top
+$(window).scroll(function(){
+	 //adjust scroll-to-top
+	 var scrollToTp= $('.scrollUp');
+	 if ($(window).scrollTop() >400){
+		 scrollToTp.fadeIn(400);
+	 }else{
+		 scrollToTp.fadeOut(400);
+	 }
+})
+//when click on scrollUp
+$('.scrollUp').click(function(e) {
+    var scrollTop= $(window).scrollTop();
+    /* Act on the event */
+    e.preventDefault();
+    $('html , body').animate({scrollTop: 0}, 600);
+});
 //fire slick slider
 $('.main-header').slick({
 	slidesToShow: 1,
@@ -45,4 +62,7 @@ $(".slick2").slick({
 		}
 	  ]
 	
+});
+$( "#datepicker" ).datepicker({
+	buttonImage: "/images/datepicker.gif"
 });

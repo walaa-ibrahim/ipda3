@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--bootstrap file css-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Plugins file css-->
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="">
     <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/jquery-nao-calendar.css">
     <!--google-font-->
     <link href="https://fonts.googleapis.com/css?family=Cairo:400,600,700&display=swap" rel="stylesheet">
     <!--main file css-->
@@ -49,9 +52,20 @@
                         </ul>
                     </div>
                     <div class="connect">
-                        <a href="" class="vr-brd massg d-inline-block">name@name.com<i
-                                class="far fa-envelope px-2"></i></a>
-                        <a href="" class="d-inline-block phone">966506954964+<i class="fas fa-phone-alt px-2"></i></a>
+                        <div class="dropdown">
+                            <a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <span> مرحبا بك </span> &nbsp; &nbsp;أحمد محمد
+                            </a>
+                            <div class="dropdown-menu text-right" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="index.html">  <i class="fas fa-home ml-2"></i>الرئيسيه</a>
+                              <a class="dropdown-item" href="#"> <i class="fas fa-user-alt ml-2"></i>معلوماتى</a>
+                              <a class="dropdown-item" href="#"> <i class="fas fa-bell ml-2"></i>اعدادات الاشعارات</a>
+                              <a class="dropdown-item" href="#"> <i class="far fa-heart ml-2"></i>المفضلة</a>
+                              <a class="dropdown-item" href="#"> <i class="far fa-comments ml-2"></i>ابلاغ</a>
+                              <a class="dropdown-item" href="contact.html"> <i class="fas fa-phone ml-2"></i>تواصل معنا</a>
+                              <a class="dropdown-item" href="#"> <i class="fas fa-sign-out-alt ml-2"></i>خروج</a>
+                            </div>
+                          </div>
                     </div>
                 </div>
                 <!--End row-->
@@ -77,19 +91,19 @@
                             <a class="nav-link" href="#">عن بنك الدم</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">المقالات</a>
+                            <a class="nav-link" href="article-details.html">المقالات</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">طلبات التبرع</a>
+                            <a class="nav-link" href="donation.html">طلبات التبرع</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">من نحن</a>
+                            <a class="nav-link" href="about-us.html">من نحن</a>
                         </li>
                         <li class="nav-item cont">
-                            <a class="nav-link" href="#">اتصل بنا</a>
+                            <a class="nav-link" href="contact.html">اتصل بنا</a>
                         </li>
-                        <li class="mr-auto py-md-2"><a class="signin" href="#">انشاء حساب جديد</a></li>
-                        <li class="pr-3"><a class="btn bg px-3" href="signup.html">دخول</a></li>
+                        <li class="mr-lg-auto py-md-2"><a class="signin" href="signup.html">انشاء حساب جديد</a></li>
+                        <li class="pr-3"><a class="btn bg px-3" href="signin.html">دخول</a></li>
                     </ul>
                 </div>
             </div>
@@ -170,7 +184,7 @@
                                 <p>هذا النص هو مثال لنص ممكن أن يستبدل فى نفس المساحه, لقد تم توليد هذا النص من مولد
                                     النص العرب
                                 </p>
-                                <div class="text-center"><button class="btn bg px-5">التفاصيل</button></div>
+                                <div class="text-center"><a href="article-details.html" class="btn bg px-5">التفاصيل</a></div>
                             </div>
                         </div>
                     </div>
@@ -183,7 +197,7 @@
                                 <p>هذا النص هو مثال لنص ممكن أن يستبدل فى نفس المساحه, لقد تم توليد هذا النص من مولد
                                     النص العرب
                                 </p>
-                                <div class="text-center"><button class="btn bg px-5">التفاصيل</button></div>
+                                <div class="text-center"><a href="article-details.html" class="btn bg px-5">التفاصيل</a></div>
                             </div>
                         </div>
                     </div>
@@ -196,7 +210,7 @@
                                 <p>هذا النص هو مثال لنص ممكن أن يستبدل فى نفس المساحه, لقد تم توليد هذا النص من مولد
                                     النص العرب
                                 </p>
-                                <div class="text-center"><button class="btn bg px-5">التفاصيل</button></div>
+                                <div class="text-center"><a href="article-details.html" class="btn bg px-5">التفاصيل</a></div>
                             </div>
                         </div>
                     </div>
@@ -209,7 +223,7 @@
                                 <p>هذا النص هو مثال لنص ممكن أن يستبدل فى نفس المساحه, لقد تم توليد هذا النص من مولد
                                     النص العرب
                                 </p>
-                                <div class="text-center"><button class="btn bg px-5">التفاصيل</button></div>
+                                <div class="text-center"><a href="article-details.html" class="btn bg px-5">التفاصيل</a></div>
                             </div>
                         </div>
                     </div>
@@ -222,7 +236,7 @@
                                 <p>هذا النص هو مثال لنص ممكن أن يستبدل فى نفس المساحه, لقد تم توليد هذا النص من مولد
                                     النص العرب
                                 </p>
-                                <div class="text-center"><button class="btn bg px-5">التفاصيل</button></div>
+                                <div class="text-center"><a href="article-details.html" class="btn bg px-5">التفاصيل</a></div>
                             </div>
                         </div>
                     </div>
@@ -235,7 +249,7 @@
                                 <p>هذا النص هو مثال لنص ممكن أن يستبدل فى نفس المساحه, لقد تم توليد هذا النص من مولد
                                     النص العرب
                                 </p>
-                                <div class="text-center"><button class="btn bg px-5">التفاصيل</button></div>
+                                <div class="text-center"><a href="article-details.html" class="btn bg px-5">التفاصيل</a></div>
                             </div>
                         </div>
                     </div>
@@ -266,106 +280,13 @@
                         <option value="القليوبيه">القليوبيه</option>
                         <option value="سوهاج">سوهاج</option>
                     </select>
-                    <div><i class="fas fa-search"></i></div>
+                <div><i class="fas fa-search"></i></div>
                 </div>
                 <!--End selection-->
-                <div class="req-item my-3">
-                    <div class="row">
-                        <div class="col-md-9 col-sm-12 clearfix">
-                            <div class="blood-type m-1 float-right">
-                                <h3>+AB</h3>
-                            </div>
-                            <div class="pt-4 mx-3 float-right">
-                                <p>
-                                    اسم الحالة : محمد مجمود
-                                </p>
-                                <p>
-                                    مستشفى : القصر العينى
-                                </p>
-                                <p>
-                                    المدينة : المنصورة
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-12 text-center pt-md-5 mb-4">
-                            <button type="button" class="btn btn-light ml-4 px-5 py-3">التفاصيل</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="req-item my-3">
-                    <div class="row">
-                        <div class="col-md-9 col-sm-12 clearfix">
-                            <div class="blood-type m-1 float-right">
-                                <h3>+AB</h3>
-                            </div>
-                            <div class="pt-4 mx-3 float-right">
-                                <p>
-                                    اسم الحالة : محمد مجمود
-                                </p>
-                                <p>
-                                    مستشفى : القصر العينى
-                                </p>
-                                <p>
-                                    المدينة : المنصورة
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-12 text-center pt-md-5 mb-4">
-                            <button type="button" class="btn btn-light ml-4 px-5 py-3">التفاصيل</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="req-item my-3">
-                    <div class="row">
-                        <div class="col-md-9 col-sm-12 clearfix">
-                            <div class="blood-type m-1 float-right">
-                                <h3>+AB</h3>
-                            </div>
-                            <div class="pt-4 mx-3 float-right">
-                                <p>
-                                    اسم الحالة : محمد مجمود
-                                </p>
-                                <p>
-                                    مستشفى : القصر العينى
-                                </p>
-                                <p>
-                                    المدينة : المنصورة
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-12 text-center pt-md-5 mb-4">
-                            <button type="button" class="btn btn-light ml-4 px-5 py-3">التفاصيل</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="req-item my-3">
-                    <div class="row">
-                        <div class="col-md-9 col-sm-12 clearfix">
-                            <div class="blood-type m-1 float-right">
-                                <h3>+AB</h3>
-                            </div>
-                            <div class="pt-4 mx-3 float-right">
-                                <p>
-                                    اسم الحالة : محمد مجمود
-                                </p>
-                                <p>
-                                    مستشفى : القصر العينى
-                                </p>
-                                <p>
-                                    المدينة : المنصورة
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-12 pt-md-5 mb-4 text-center">
-                            <button type="button" class="btn btn-light ml-4 px-5 py-3">التفاصيل</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center"><a class="btn bg px-5 py-2" href="donation.html">المزيد</a></div>
-            </div>
-            <!--End container-->
-        </div>
-        <!--End Donation-request-->
+                <div id="donations"></div>
+                <!--End last req-item-->
+            </div><!--End container-->
+        </div><!--End Donation-request-->
     </section>
     <!--End Donation-->
     <!--Contact-us-->
@@ -426,10 +347,10 @@
                         <h6 class="px-md-5 mt-md-3">الرئيسية</h6>
                         <ul class="list-unstyled">
                             <li class="py-2"><a href="">عن بنك الدم</a></li>
-                            <li class="py-2"><a href="">المقالات</a></li>
-                            <li class="py-2"><a href="">عن التبرع</a></li>
-                            <li class="py-2"><a href="">من نحن</a></li>
-                            <li class="py-2"><a href="">اتصل بنا</a></li>
+                            <li class="py-2"><a href="article-details.html">المقالات</a></li>
+                            <li class="py-2"><a href="donation.html">عن التبرع</a></li>
+                            <li class="py-2"><a href="about-us.html">من نحن</a></li>
+                            <li class="py-2"><a href="contact.html">اتصل بنا</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4 available">
@@ -465,12 +386,45 @@
         </div>
     </footer>
     <!--End Footer-->
+    <!--scrollUp-->
+    <div class="scrollUp">
+		<i class="fas fa-chevron-up"></i>
+	</div>
     <!--jquery/bootstrap/main file js-->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery-nao-calendar.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        var request = new XMLHttpRequest();
+
+        var url = "https://cors-anywhere.herokuapp.com/" + "http://ipda3-tech.com/blood-bank/api/v1/donation-requests?api_token=W4mx3VMIWetLcvEcyF554CfxjZHwdtQldbdlCl2XAaBTDIpNjKO1f7CHuwKl&page=1";
+
+        request.open('GET', url);
+
+        request.onreadystatechange = function() {
+            if( this.readyState == 4 && this.status == 200 ) {
+
+                var dataHolder = JSON.parse( this.responseText );
+                var div = document.getElementById('donations');
+                var temp = "";
+                for(var i = 0; i < dataHolder['data'].data.length; i++) {
+                   temp += '<div class="req-item my-3"><div class="row"><div class="col-md-9 col-sm-12 clearfix"><div class="blood-type m-1 float-right"><h3>'+ dataHolder['data'].data[i].blood_type.name +'</h3></div><div class="mx-3 float-right pt-md-2"><p>اسم الحالة : '+ dataHolder['data'].data[i].patient_name +'</p><p>مستشفى : '+ dataHolder['data'].data[i].hospital_name +'</p><p>المدينة : '+ dataHolder['data'].data[i].city.name +'</p></div></div><div class="col-md-3 col-sm-12 text-center p-sm-3 pt-md-5"><a href="Status-detailes.html" class="btn btn-light px-5 py-3">التفاصيل</a></div></div></div>';
+                }
+
+
+                div.innerHTML = temp;
+                // console.log(dataHolder);
+                
+                
+            }
+        };
+
+        request.send();
+
+    </script>
 </body>
 
 </html>

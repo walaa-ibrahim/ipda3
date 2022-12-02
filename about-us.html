@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--bootstrap file css-->
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!--Plugins file css-->
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
-    <link rel="stylesheet" href="aicon/style.css">
     <link rel="stylesheet" href="css/jquery-nao-calendar.css">
     <!--google-font-->
     <link href="https://fonts.googleapis.com/css?family=Cairo:400,600,700&display=swap" rel="stylesheet">
@@ -47,7 +46,7 @@
                         </ul>
                     </div>
                     <div>
-                        <a href="#">انشاء حساب جديد</a>
+                        <a href="signup.html">انشاء حساب جديد</a>
                         <a class="px-3 log" href="signin.html">دخول</a>
                     </div>
                 </div><!--End row-->
@@ -85,92 +84,75 @@
                         <li class="mr-lg-auto py-md-2"><a class="btn bg" href="#">طلب تبرع</a></li>
                     </ul>
                 </div>
-            </div>
-            <!--End container-->
-        </nav>
-        <!--End Nav-->
+            </div><!--End container-->
+        </nav><!--End Nav-->
     </section><!--End Header-->
     <div class="container">
-            <!--Breadcrumb-->
-            <nav class="my-4" aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">الرئيسيه</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">انشاء حساب جديد</li>
-                </ol>
-            </nav><!--End Breadcrumb-->
-        </div><!--End container-->
-        <section class="signup text-center">
-            <div class="container">
-                <div class="py-4 mb-4">
-                    <form action="" class="w-75 m-auto">
-                        <div><input type="text" name="usName" class="form-control my-3" placeholder="الاسم"></div>
-                        <div><input type="mail" name="usEmail" class="form-control my-3" placeholder="البريد الاليكترونى"></div>
-                        <div class="input-group">
-                            <input type="text"  id="datepicker" name="usBirth" class="form-control" placeholder="تاريخ الميلاد">
-                            <i class="far fa-calendar-alt"></i>
-                        </div>
-                        <input type="text" name="booldType" class="form-control my-3" placeholder="فصيلة الدم">
-                        <div class="input-group mb-3">
-                            <select name="capital" id="capital" class="form-control custom-select">
-                                <option >المحافظة</option>
-                                <option value="القاهرة">القاهرة</option>
-                                <option value="القليوبيه">القليوبية</option>
-                                <option value="سوهاج">سوهاج</option>
-                            </select>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="input-group">
-                            <select name="city" id="city" class="form-control custom-select">
-                                <option selected>المدينة</option>
-                                <option value="القاهرة">الدقى</option>
-                                <option value="بنها">بنها</option>
-                                <option value="سوهاج">سوهاج</option>
-                            </select>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <input type="text" name="usPhone" class="form-control my-3" placeholder="رقم الهاتف">
-                        <div class="input-group mb-3">
-                            <input type="text" id="datepicker" name="lstDon" class="form-control" placeholder="اخر تاريخ تبرع" aria-label="Username" aria-describedby="basic-addon1">
-                            <i class="far fa-calendar-alt"></i>
-                        </div>
-                        <input type="password" name="usPass" class="form-control my-3" placeholder="كلمة المرور">
-                        <input type="password" name="rePass" class="form-control my-3" placeholder="تأكيد كلمة المرور">
-                        <button type="submit" class="btn btn-success py-2 w-50">ارسال</button>
-                    </form>
+        <!--Breadcrumb-->
+        <nav class="my-4" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">الرئيسيه</a></li>
+                <li class="breadcrumb-item active" aria-current="page">من نحن</li>
+            </ol>
+        </nav><!--End Breadcrumb-->
+        <section class="about-us my-4 py-5">
+            <div class="my-5 text-center"><img src="imgs/logo.png" alt="logo"></div>
+            <div class="about-US-content px-4 mb-5">
+                <p class="my-md-4"> بنك الدم هذا النص هو مثال لنص ممكن أن يستبدل فى نفس المساحه, لقد تم توليد
+                    هذا النص من مولد النص العرب حيث يمكنك ان تولد هذا النص أو
+                    العديد من النصوص الأخرى وإضافة الى زيادة عدد الحروف التى يولدها التطبيق
+                     بنك الدم هذا النص هو مثال لنص ممكن أن يستبدل فى نفس المساحه, لقد تم توليد
+                    هذا النص من مولد النص العرب حيث يمكنك ان تولد هذا النص أو
+                    العديد من النصوص الأخرى
+                </p>
+                <p class="my-md-4"> بنك الدم هذا النص هو مثال لنص ممكن أن يستبدل فى نفس المساحه, لقد تم توليد
+                    هذا النص من مولد النص العرب حيث يمكنك ان تولد هذا النص أو
+                    العديد من النصوص الأخرى وإضافة الى زيادة عدد الحروف التى يولدها التطبيق لموقع
+                    بنك الدم هذا النص هو مثال لنص ممكن أن يستبدل فى نفس المساحه, لقد تم توليد
+                    هذا النص من مولد النص العرب حيث يمكنك ان تولد هذا النص أو
+                    العديد من النصوص الأخرى 
+                </p>
+                <p class="my-md-4"> بنك الدم هذا النص هو مثال لنص ممكن أن يستبدل فى نفس المساحه, لقد تم توليد
+                    هذا النص من مولد النص العرب حيث يمكنك ان تولد هذا النص أو
+                    العديد من النصوص الأخرى وإضافة الى زيادة عدد الحروف التى يولدها التطبيق
+                    بنك الدمهذا النص هو مثال لنص ممكن أن يستبدل فى نفس المساحه, لقد تم توليد
+                    هذا النص من مولد النص العرب حيث يمكنك ان تولد هذا النص أو
+                    العديد من النصوص الأخرى
+                </p>
+            </div>
+        </section><!--End about-us-->
+    </div><!--End container-->
+    <!--Footer-->
+    <footer>
+    <div class="main-footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="imgs/logo.png" alt="">
+                    <h5 class="my-3">بنك الدم</h5>
+                    <p class="pl-4"> هذا النص هو مثال لنص ممكن أن يستبدل فى نفس المساحه, لقد تم توليد
+                        هذا النص من مولد النص العرب حيث يمكنك ان تولد هذا النص أو
+                        العديد من النصوص الأخرى وإضافة الى زيادة عدد الحروف التى يولدها التطبيق يطلع على صورة حقيقة لتطبيق
+                        الموقع
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="px-md-5 mt-md-3">الرئيسية</h6>
+                    <ul class="list-unstyled">
+                        <li class="py-2"><a href="">عن بنك الدم</a></li>
+                        <li class="py-2"><a href="">المقالات</a></li>
+                        <li class="py-2"><a href="">عن التبرع</a></li>
+                        <li class="py-2"><a href="about-us.html">من نحن</a></li>
+                        <li class="py-2"><a href="contact.html">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 available">
+                    <h6 class="mb-5 mt-md-3 px-md-5">متوفر على</h6>
+                    <div class="my-3"><img src="imgs/google1.png" alt=""></div>
+                    <div class="my-3"><img src="imgs/ios1.png" alt=""></div>
                 </div>
             </div>
-        </section>
-<!--Footer-->
-<footer>
-        <div class="main-footer py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="imgs/logo.png" alt="">
-                        <h5 class="my-3">بنك الدم</h5>
-                        <p class="pl-4"> هذا النص هو مثال لنص ممكن أن يستبدل فى نفس المساحه, لقد تم توليد
-                            هذا النص من مولد النص العرب حيث يمكنك ان تولد هذا النص أو
-                            العديد من النصوص الأخرى وإضافة الى زيادة عدد الحروف التى يولدها التطبيق يطلع على صورة حقيقة لتطبيق
-                            الموقع
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <h6 class="px-md-5 mt-md-3">الرئيسية</h6>
-                        <ul class="list-unstyled">
-                            <li class="py-2"><a href="">عن بنك الدم</a></li>
-                            <li class="py-2"><a href="">المقالات</a></li>
-                            <li class="py-2"><a href="">عن التبرع</a></li>
-                            <li class="py-2"><a href="">من نحن</a></li>
-                            <li class="py-2"><a href="">اتصل بنا</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 available">
-                        <h6 class="mb-5 mt-md-3 px-md-5">متوفر على</h6>
-                        <div class="my-3"><img src="imgs/google1.png" alt=""></div>
-                        <div class="my-3"><img src="imgs/ios1.png" alt=""></div>
-                    </div>
-                </div>
-            </div><!--End container-->
+        </div><!--End container-->
         </div><!--End main-footer-->
         <div class="copyright">
             <div class="container">
@@ -192,8 +174,8 @@
     </footer><!--End Footer-->
     <!--jquery/bootstrap/main file js-->
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery-nao-calendar.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
